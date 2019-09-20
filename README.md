@@ -1,7 +1,7 @@
 # Swim Lane Rental Invoice Generator
 
 ## Introduction
-I created this custom Google Sheets menu item to generate detailed invoices for pool rentals at my swim club.
+I created this custom Google Sheets menu item to generate detailed monthly invoices for pool rentals stored in Google calendars at my swim club.
 
 ## Calender title format requirements
 * Rental calendar entries must have the following form for their title: RENTAL - <tenant name> - <number> Lanes
