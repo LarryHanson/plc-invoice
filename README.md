@@ -43,11 +43,11 @@ I created this custom Google Sheets menu item to generate detailed invoices for 
   * Note if you want to regenerate you need to clear out any old data as the script will only overwrite, not delete.
 
 ## Future Features
-* Maybe include rental rate per tenant in settings sheet or some such.
+* Maybe include custom rental rate per tenant in settings sheet or some such.
 * Make menu item text customizable through Seattings sheet (you can just change the string in the script for now).
 
 ## TODO
-TODO: format start and end time with timezone (currently zulu time).
-TODO: Format lanes and hours columns left justified.
-TODO: Make sure we handle error cases gracefully.
-TODO: Handle non rental calendar entries nicely.
+- TODO: format start and end time with timezone (currently zulu time).
+- TODO: Format lanes and hours columns left justified.
+- TODO: Make sure we handle error cases gracefully.
+- TODO: Handle non rental calendar entries nicely.
