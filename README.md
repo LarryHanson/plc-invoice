@@ -9,13 +9,13 @@ I created this custom Google Sheets menu item to generate detailed invoices for 
 * Create one or more calendar entries with the proper title format with specified start and end times.
 * When you run the invioce generator it will create an entry for each calendar entry with:
   * Tenant name (from the title)
-  * Start date and time of the rental
-  * End date and time of the rental
+  * Start date and time of the rental (from the calendar entry)
+  * End date and time of the rental (from the calendar entry)
   * Number of lanes rented (from the title)
-  * Number of hours rented
-  * $/lane hour rate charged
+  * Number of hours rented (calculated from calendar entry)
+  * $/lane hour rate charged (taken from the "Settings" sheet.
   * Amount charged for the calendar entry (number of hours * $/lane hour rate)
-* All invoice entries will be grouped by tenant with a total for each group for the month.
+* All invoice entries are grouped by tenant with a total for each group for the month.
 
 ## Google Sheets Setup
 * Create a Google Sheets file or open one that exists. Name it whatever you like.
