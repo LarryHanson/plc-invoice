@@ -42,6 +42,15 @@ I created this custom Google Sheets menu item to generate detailed monthly invoi
 * Any time you want to generate an invoice just use this menu item.
   * Note if you want to regenerate you need to clear out any old data as the script will only overwrite, not delete.
 
+## Share the invoice
+* You can share the invoice by sharing the Google sheet.
+* To share the Google sheet:
+  * Open the Google sheet
+  * Click "Share" in the upper right
+  * Choose "Anyone with link can view"
+  * Choose "Copy link"
+  * Paste the link into email/message/etc. and send to whomever needs the information.
+
 ## Future Features
 * Maybe include custom rental rate per tenant in settings sheet or some such.
 * Make menu item text customizable through Seattings sheet (you can just change the string in the script for now).
