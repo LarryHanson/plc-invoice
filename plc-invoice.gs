@@ -6,6 +6,9 @@
   * A Google App Script that reads rental event information from Google Calendar and generates an invoice in Google Sheets.
   */
 
+// Pull in moment.js
+eval(UrlFetchApp.fetch('https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js').getContentText());
+
 /**
  * A special function that runs when the spreadsheet is open, used to add a
  * custom menu to the spreadsheet.
@@ -67,8 +70,8 @@ function populateInvoiceSheet_(invoiceSheet, rentalDetails, rate) {
             var range = invoiceSheet.getRange(row, 1, 1, 7);
             range.setValues([[
                 rd.tenant,
-                rd.startTime.toISOString(),
-                rd.endTime.toISOString(),
+                moment(rd.startTime).toISOString(true),
+                moment(rd.endTime).toISOString(true),
                 rd.lanes,
                 "=((DATEVALUE(MID(R[0]C[-2],1,10)) + TIMEVALUE(MID(R[0]C[-2],12,8))) - (DATEVALUE(MID(R[0]C[-3],1,10)) + TIMEVALUE(MID(R[0]C[-3],12,8))))*24",
                 15,
