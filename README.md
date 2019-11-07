@@ -64,7 +64,6 @@ I created this custom Google Sheets menu item to generate detailed monthly invoi
 * Make menu item text customizable through Seattings sheet (you can just change the string in the script for now).
 
 ## TODO
-- TODO: format start and end time with timezone (currently zulu time).
 - TODO: Format lanes and hours columns left justified.
 - TODO: Make sure we handle error cases gracefully.
 - TODO: Handle non rental calendar entries nicely.
