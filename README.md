@@ -27,10 +27,18 @@ I created this custom Google Sheets menu item to generate detailed monthly invoi
 * Set value of B2 to the desired $/lane hour rental rate (e.g. "15") in the "Settings" sheet.
 * Copy contents of https://github.com/LarryHanson/swim-lane-rental-invoice/blob/master/plc-invoice.gs into clipboard
 * In Google Sheets navigate to Tools -> Script Editor and paste the contents completely replacing anything already in Code.gs.
-* Select File -> Save and name theh application whatever you like (e.g. "Pool Invoice").
+* Select File -> Save and name the application whatever you like (e.g. "Pool Invoice").
 * Close the code window
 * Refresh the Google Sheets web page so that it picks up your new command. 
 * You should now have a "PLC" menu item next to the "Help" menu item.
+
+## Updating invoice generation script
+* If you already have the Google Sheet setup and need to update the invoice generation scrilpt follow these steps:
+  * Copy contents of https://github.com/LarryHanson/swim-lane-rental-invoice/blob/master/plc-invoice.gs into clipboard
+  * In Google Sheets navigate to Tools -> Script Editor and paste the contents completely replacing anything already in Code.gs.
+  * Select File -> Save and name the application whatever you like (e.g. "Pool Invoice").
+  * Close the code window
+  * Refresh the Google Sheets web page so that it picks up your new command. 
 
 ## Run the invoice generator
 * Create a sheet (tab) and name it with the year and month you that matches what you want to invoice in your Google calendar.
