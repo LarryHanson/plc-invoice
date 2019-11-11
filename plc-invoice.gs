@@ -1,13 +1,6 @@
 /**
- * @OnlyCurrentDoc Limits the script to only accessing the current sheet.
- */
-
-/**
   * A Google App Script that reads rental event information from Google Calendar and generates an invoice in Google Sheets.
   */
-
-// Pull in moment.js
-eval(UrlFetchApp.fetch('https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js').getContentText());
 
 /**
  * A special function that runs when the spreadsheet is open, used to add a
@@ -60,6 +53,8 @@ function formatInvoiceSheet_(invoiceSheet) {
  * A function that populates the invoice sheet with the rental details.
  */
 function populateInvoiceSheet_(invoiceSheet, rentalDetails, rate) {
+    eval(UrlFetchApp.fetch('https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js').getContentText());
+    
     var row = 2;
     for (tenant in rentalDetails) {
         var array = rentalDetails[tenant];
