@@ -35,7 +35,7 @@ I created this custom Google Sheets menu item to generate detailed monthly invoi
 * If the menu item does not show up, a script error may have occurred.
   * Navigate to Tools -> Script Editor
   * Select View -> Execution transcript
-  * If there is an error reported, copy and past the contents of this window in a new issue at https://github.com/LarryHanson/swim-lane-rental-invoice/issues
+  * If there is an error reported, copy and paste the contents of this window in a new issue at https://github.com/LarryHanson/swim-lane-rental-invoice/issues
 
 ## Updating invoice generation script
 * If you already have the Google Sheet setup and need to update the invoice generation scrilpt follow these steps:
