@@ -30,7 +30,12 @@ I created this custom Google Sheets menu item to generate detailed monthly invoi
 * Select File -> Save and name the application whatever you like (e.g. "Pool Invoice").
 * Close the code window
 * Refresh the Google Sheets web page so that it picks up your new command. 
-* You should now have a "PLC" menu item next to the "Help" menu item.
+* You should now have a "Invoice" menu item next to the "Help" menu item.
+
+* If the menu item does not show up, a script error may have occurred.
+  * Navigate to Tools -> Script Editor
+  * Select View -> Execution transcript
+  * If there is an error reported, copy and past the contents of this window in a new issue at https://github.com/LarryHanson/swim-lane-rental-invoice/issues
 
 ## Updating invoice generation script
 * If you already have the Google Sheet setup and need to update the invoice generation scrilpt follow these steps:
